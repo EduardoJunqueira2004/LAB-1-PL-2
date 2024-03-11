@@ -13,8 +13,6 @@ body{
   cursor: pointer; /* Cursor de seta ao passar por cima */
   transition: background-color 0.3s, color 0.3s; /* Transição suave */
 }
-
-
 .container {
     display: flex;
     justify-content: center; /* Centralizar horizontalmente */
@@ -31,7 +29,7 @@ footer para o Copyrigth
 */
 footer {
   color: #141313; /* Cor do texto no rodapé */
-  padding: 20px; /* Espaçamento interno do rodapé */
+  padding: 1px; /* Espaçamento interno do rodapé */
   text-align: left; /* Alinhar o texto à esquerda no rodapé */
   position: fixed; /* Fixar o rodapé na parte inferior da janela */
   left: 0;
@@ -47,6 +45,7 @@ h1{
 /* Defina o estilo para pores a letra toda em branca 
  */
 h1 {
+  font-size: 40px; /* Tamanho do texto em pixels */
   color: white;
   text-align: center;
 }
