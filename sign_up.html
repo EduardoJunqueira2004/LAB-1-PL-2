@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilo_sign_up.css">
+    <link rel="stylesheet" href="styles/estilo_sign_up.css">
 </head>
 <body>
     <input type="button" class="custom-button" value="<Back" onclick="window.location.href='login.html'"> 
@@ -20,12 +20,15 @@
                 <label class="email" for="email">* Email: </label>
                 <input type="email" id="email" name="email"><br><br>
                 <label for="Password">* Password: </label>
-                <input type="password" id="password" name="password"><br><br>  
+                <label for="password">* Password: </label>
+                <input type="password" id="password" name="password" title="Enter your password" placeholder="Password"><br><br>  
                 <label for="Password">* Re-type password: </label> 
-                <input type="password" id="confirm-password" name="confirm-password"><br><br>
+                <label for="confirm-password">* Confirm Password: </label>
+                <input type="password" id="confirm-password" name="confirm-password" title="Confirm your password" placeholder="Confirm Password"><br><br>
                 <p></p>
                 <p></p>
-            <input type="checkbox" id="terms" name="terms" value="terms">I agree to the <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>
+            <label for="terms">I agree to the <a href="">Terms of Use</a> and <a href="">Privacy Policy</a></label>
+            <input type="checkbox" id="terms" name="terms" value="terms">
                   <br><br><input type="button" value="Sign Up">
                   <a href="" title="Learn more" >Learn more</a>
             </form>
