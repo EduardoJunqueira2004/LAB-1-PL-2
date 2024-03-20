@@ -1,0 +1,46 @@
+/*
+Style for the container
+*/
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 200; 
+}
+/*
+Style for the profile-content
+*/
+
+.profile-content {
+  margin-top: 20px;
+}
+/*
+Style for the profile-img
+*/
+
+.center{display:block;
+        margin-left:auto;
+        margin-right:auto;}
+/*
+Style for the profile-h1
+*/
+  
+  h1 {
+    color: rgb(24, 23, 23);
+    text-align: left;
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+  }
+/*
+footer Copyrigth
+*/
+footer {
+  color: #141313; 
+  padding: 1px; 
+  text-align: left; 
+  position: fixed; 
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  background-color: #f0f0f0; 
+}
